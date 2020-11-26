@@ -1,0 +1,90 @@
+@keyframes created{
+    from {transform: scale(0.5, 0.5)}
+    to   {transform: scale(1, 1)}
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: repeat(4, 100px);
+    gap: 15px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #bbada0;
+    width: 445px;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.board-cell {
+    background-color:rgba(238, 228, 218, 0.35);
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color:white;
+}
+
+.cell-number-2, .cell-number-4 {
+    color: #776e65;
+}
+
+.cell-number-128, .cell-number-256, .cell-number-512 {
+    font-size: 45px;
+}
+
+.cell-number-1024, .cell-number-2048 {
+    font-size: 40px;
+}
+
+.cell-number-2 {
+    background-color: #EEE4DA;
+}
+ 
+.cell-number-4 {
+    background-color: #EEE1C9;
+}
+ 
+.cell-number-8 {
+    background-color: #F3B27A;
+}
+ 
+.cell-number-16 {
+    background-color: #F69664;
+}
+ 
+.cell-number-32 {
+    background-color: #F77C5F;
+}
+ 
+.cell-number-64 {
+    background-color: #F75F3B;
+}
+ 
+.cell-number-128 {
+    background-color: #EDD073;
+}
+
+.cell-number-256 {
+    background-color: #EDCC62;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.3174603175), inset 0 0 0 1px rgba(255, 255, 255, 0.1904761905);
+}
+.cell-number-512 {
+    background-color: #EDC950;
+    box-shadow: 0 0 50px 15px rgba(243, 215, 116, 0.4868253968), inset 0 0 0 1px rgba(255, 255, 255, 0.2380952);
+}
+.cell-number-1024 {
+    background-color: #EDC53F;
+    box-shadow: 0 0 70px 20px rgba(243, 215, 116, 0.6468253968), inset 0 0 0 1px rgba(255, 255, 255, 0.2380952);
+}
+.cell-number-2048 {
+    background-color: #EDC22E;
+    box-shadow: 0 0 70px 30px rgba(243, 215, 116, 0.6468253968), inset 0 0 0 1px rgba(255, 255, 255, 0.2380952);
+}
+
+
